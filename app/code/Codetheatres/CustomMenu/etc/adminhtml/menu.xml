@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id = "Codetheatres_CustomMenu::custom_menu" title = "Custom Menu" module = "Codetheatres_CustomMenu" sortOrder = "90" resource = "Codetheatres_CustomMenu::custom_menu" />
+		<add id = "Codetheatres_CustomMenu::menu1" title = "Menu 1" module="Codetheatres_CustomMenu" sortOrder="20" parent="Codetheatres_CustomMenu::custom_menu" resource="Codetheatres_CustomMenu::menu1" />
+		<add id = "Codetheatres_CustomMenu::menu2" title = "Menu 2" module="Codetheatres_CustomMenu" sortOrder="30" parent="Codetheatres_CustomMenu::custom_menu" resource="Codetheatres_CustomMenu::menu2" />
+		<add id = "Codetheatres_CustomMenu::menu3" title = "Menu 3" module="Codetheatres_CustomMenu" sortOrder="40" parent="Codetheatres_CustomMenu::custom_menu" resource="Codetheatres_CustomMenu::menu3" />
+	</menu>
+</config>
